@@ -17,7 +17,6 @@
   		padding:30px 15px 25px 80px;
   		font-family: cursive;
   		font-size: 2vw;
-
   	}
   	ul{
   		list-style-type: none;
