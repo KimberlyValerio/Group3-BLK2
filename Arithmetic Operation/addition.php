@@ -42,13 +42,13 @@
 
     <div class="col-sm-3" id="nav" >
     	<h2>CATEGORY</h2>
-			<ul>
-  			<li><a href="Page1.php">HOME</a></li>
-  			<li><a href="">ADDITION</a></li>
-  			<li><a href="">SUBTRACTION</a></li>
-  			<li><a href="">MULTIPLICATION</a></li>
-  			<li><a href="">DIVISION</a></li>
-			</ul>
+	<ul>
+          <li><a href="Page1.php">HOME</a></li>
+          <li><a href="addition.php">ADDITION</a></li>
+          <li><a href="subtraction.php">SUBTRACTION</a></li>
+          <li><a href="mul.php">MULTIPLICATION</a></li>
+          <li><a href="div.php">DIVISION</a></li>
+        </ul>
     </div>
 
     <!-- QUESTIONAIRES -->
