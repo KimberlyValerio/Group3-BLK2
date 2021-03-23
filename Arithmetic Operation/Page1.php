@@ -4,36 +4,66 @@
 	<title>KIDS MATH-TYNICS</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <style type="text/css">
+  	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<style type="text/css">
   	body{
-  		background-image: url('all.jpg');
+  		background-image: url('bg.png');
+      		background-repeat: no-repeat;
+      		background-size: cover; 
+      		background-attachment: fixed; 
   	}
-  	h1{
-  		text-align: center;
-  		font-family: cursive;
-  	}
-  	#left{
-  		padding:30px 15px 25px 80px;
-  		font-family: cursive;
-  		font-size: 2vw;
+    	.container{
+      		width: 42%;
+      		background-color: ;
+      		margin-top: 3%;
+      		margin-right: 55%;
+    	}
+    	h1{
+      		font-family: Georgia;
+      		font-weight: bold;
+      		font-size: 4vw;
+      		text-shadow: 4px 1px #E8D9BD;
+    	}
+    	p{
+      		text-indent: 20px;
+      		text-align: justify;
+      		line-height: 30px;
+      		font-family: Georgia;
+      		font-size: 1.3vw;
+      		word-spacing: 15px;
+      		text-shadow: 1.5px 1px white;
+    	}
+     	h2{
+      		font-family: Georgia;
+      		font-weight: bold;
+      		font-size: 3vw;
+      		text-shadow: 4px 1px #E8D9BD;
+    	}
+    	.button{
+      		display: inline-block;
+      		font-size: 26px;
+      		cursor: pointer;
+      		text-align: center;
+      		text-decoration: none;
+      		outline: none;
+      		color: #2E6864;
+      		background-color: white;
+      		border: none;
+      		border-radius: 8px;
+      		box-shadow: 0 9px #89A4AD;
+    	}
+    	.button:hover{
+      		background-color: #5C9598;
+      		color: white;
+    	}
 
-  	}
-  	ul{
-  		list-style-type: none;
-  	}
-  	li{
-  		margin-top: 10px;
-  	}
-  	#right{
-  		margin: 30px 0px 0px 0px;
-  		padding: 0px 150px 80px 0px;
-  		font-family: cursive;
-  		font-size: 2.5vw;
-  	}
-  	p{
-  		text-indent: 50px;
-  	}
+    	.button:active {
+      		background-color: #83AFBC;
+      		box-shadow: 0 5px #666;
+      		transform: translateY(4px);
+    	}
+
   </style>
 </head>
 <body>
