@@ -1,178 +1,197 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-</head>
-<style type="text/css">
-	.box{
-		padding: 30px;
-		border: 1px solid gray;
-		border-radius: 20px;
-		max-width: 600px;
-		font-size: 18px;
-		font-weight: bold;
-		justify-content: center;
-		color: black;
-	}
-</style>
-</html>
-<body>
-<div class="header"><h1>KIDS MATH-TYNICS</h1></div>
-	<div class="concept">
-		<div class="row">
-			<div class="col-sm-5" id="left">
-			<h2>CATEGORY</h2>
-				<ul>
-  				<li><a href="Page1.php">HOME</a></li>
-  				<li><a href="">ADDITION</a></li>
-  				<li><a href="">SUBTRACTION</a></li>
-  				<li><a href="">MULTIPLICATION</a></li>
-  				<li><a href="">DIVITION</a></li>
-				</ul>
-						
-			</div>
-
-			<div class="col-sm-7" id="right">
-				<center><h4>Let's learn ADDITION</h4></center>
-        <p> Addition is a process of taking two or more numbers and adding them together.
-        </br>Example:</br>&nbsp;&nbsp;&nbsp;&nbsp;Anna has 2 apples and Ben has 2 oranges. How many fruits those the children have?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOLUTION: 2 apples + 2 oranges = 4 fruits <br></p>
-        <br>
-        <div class="box">
-		<h2>NOW ITS YOUR TURN</h2>
-        <p>Denzel has 4 cameras and serafin has 5 computer units. How many gadgets those the boys have?</p>
-		
-		<form>
-			
-          <input type="text" id="num1">
-           <input type="text" id="num2">
-           <button onclick="calculate()"> Calculate</button>
-           <h1 id="answer"></h1>
-        </form>
-		<script>	
-			function calculate() {
-			var field1=document.getElementById("num1").value;
-			var field2=document.getElementById("num2").value;
-			var result=parseFloat(field1)*parseFloat(field2);
-
-		if(!isNaN(result)){
-		document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
-	}
-}
-</script>
-</div>
-
-
-<div class="box">
-		<h2>NOW ITS YOUR TURN</h2>
-        <p>Denzel has 4 cameras and serafin has 5 computer units. How many gadgets those the boys have?</p>
-		
-		<form>
-			
-          <input type="text" id="num1">
-           <input type="text" id="num2">
-           <button onclick="calculate()"> Calculate</button>
-           <h1 id="answer"></h1>
-        </form>
-		<script>	
-			function calculate() {
-			var field1=document.getElementById("num1").value;
-			var field2=document.getElementById("num2").value;
-			var result=parseFloat(field1)*parseFloat(field2);
-
-		if(!isNaN(result)){
-		document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
-	}
-}
-</script>
-</div>
-        
-			
-		</div>
-		</div>
-	</div>
-</body>
-</html>
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<title>KIDS MATH-TYNICS</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <style type="text/css">
-  	body{
-  		background-image: url('aa.jpg');
-  	}
-  	h1{
-  		text-align: center;
-  		font-family: cursive;
-  	}
-  	#left{
-  		padding:30px 15px 25px 80px;
-  		font-family: cursive;
-  		font-size: 2vw;
-
-  	}
-  	ul{
-  		list-style-type: none;
-  	}
-  	li{
-  		margin-top: 10px;
-  	}
-  	#right{
-  		margin: 30px 0px 0px 0px;
-  		padding: 0px 150px 80px 0px;
-  		font-family: cursive;
-  		font-size: 1vw;
-  	}
-  	p{
-  		text-indent: 50px;
-      font-size: 20px;
-  	}
+    h1,h2{
+      text-align: center;x
+    }
+    .questions{
+      padding: 10px;
+      border-style: solid;
+      border-width: 1px;
+      color: black;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .box{
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: rgba(255,255,255,.2);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    color: black;
+  }
+   ul{
+      list-style-type: none;
+    }
   </style>
+</head>
 <body>
-	<div class="header"><h1>KIDS MATH-TYNICS</h1></div>
-	<div class="concept">
-		<div class="row">
-			<div class="col-sm-5" id="left">
-			<h2>CATEGORY</h2>
-				<ul>
-  				<li><a href="Page1.php">HOME</a></li>
-  				<li><a href="">ADDITION</a></li>
-  				<li><a href="">SUBTRACTION</a></li>
-  				<li><a href="">MULTIPLICATION</a></li>
-  				<li><a href="">DIVITION</a></li>
-				</ul>
-						
-			</div>
 
-			<div class="col-sm-7" id="right">
-				<center><h4>Let's learn ADDITION</h4></center>
-        <p> Addition is a process of taking two or more numbers and adding them together.
-        </br>Example:</br>&nbsp;&nbsp;&nbsp;&nbsp;Anna has 2 apples and Ben has 2 oranges. How many fruits those the children have?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOLUTION: 2 apples + 2 oranges = 4 fruits <br></p>
-        <br>
-        <h2>NOW ITS YOUR TURN</h2>
-        <p>Denzel has 4 cameras and serafin has 5 computer units. How many gadgets those the boys have?</p>
-        <form action="" method="post">
-          <input type="text" name="num1" placeholder="ENTER A NUMBER">
-           <input type="text" name="num2" placeholder="ENTER A NUMBER">
-           <input type="submit" name="sum" value="ADD">  
+<div class="container-fluid">
+  <div class="row">
+    <h1>KIDS MATH-TYNICS</h1>
+
+    <!-- NAVIGATION -->
+
+    <div class="col-sm-3" id="nav" >
+      <h2>CATEGORY</h2>
+     <ul>
+          <li><a href="Page1.php">HOME</a></li>
+         <li><a href="addition.php">ADDITION</a></li>
+          <li><a href="subtraction.php">SUBTRACTION</a></li>
+          <li><a href="mul.php">MULTIPLICATION</a></li>
+          <li><a href="div.php">DIVISION</a></li>
+        </ul>
+    </div>
+
+    <!-- QUESTIONAIRES -->
+    <div class="col-sm-6">
+      <h3>Let's learn MULTIPLICATION</h3>
+      <p>Multiplication ,multiply means to add equal groups. When we multiply, the number of things in the group increases. The two factors and the product are parts of a multiplication problem. ... Here is another example of a multiplication fact that shows multiplication is also repeated addition.
+        </br>Example:</br>&nbsp;&nbsp;&nbsp;&nbsp;Anna has 5 egg cartons. Each carton has 12 eggs. How many eggs does she have in total?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOLUTION: 5 egg cartons X 12 eggs = 60 eggs in total <br></p>
+
+        <h3>NOW ITS YOUR TURN</h3>
+        <h2>PROBLEM</h2>
+        <p>Andrew is having his friends over for game night. So he decided to prepare snacks and games.</p>
+
+        <div class="questions">
+          <p> He started by making mini sandwiches. If he has 4 friends coming over and he made 3 sandwiches for each one of them, how many sandwiches did he make?</p>
+            <form action="" method="post">
+              <input type="text" name="num1">
+              <input type="submit" name="check1" value="Check">  
         </form>
-				<?php
-        if(isset($_POST['sum'])){
+          <?php
+          if(isset($_POST['check1'])){
 
            $num1 =$_POST['num1'];
+           if ($num1 == "12") {
+            echo "Your answer is correct";
+           }
+           elseif ($num1 !="12") {
+            echo "Try Again";
+           }
+          }
+          ?>
+        </div>
+
+        <div class="questions">
+          <p> He also made some juice from fresh oranges. If he used 2 oranges per glass of juice and he made 6 glasses of juice, how many oranges did he use?</p>
+            <form action="" method="post">
+              <input type="text" name="num2">
+              <input type="submit" name="check2" value="Check">  
+        </form>
+          <?php
+          if(isset($_POST['check2'])){
+
            $num2 =$_POST['num2'];
-           $add = $num1 +$num2;
-           echo "THE SUM of ".$num1,"and".$num2."is".$add;
-      }
-        ?>
-			
-		</div>
-		</div>
-	</div>
+           if ($num2 == "12") {
+            echo "Your answer is correct";
+           }
+           elseif ($num2 !="12") {
+            echo "Try Again";
+           }
+          }
+          ?>
+        </div>
+
+        <div class="questions">
+          <p>Then he started to prepare the games for his 4 friends. If each game takes 5 minutes to prepare and he prepared a total of 5 games, how many minutes did it take for Andrew to prepare all the games?</p>
+            <form action="" method="post">
+              <input type="text" name="num3">
+              <input type="submit" name="check3" value="Check">  
+        </form>
+          <?php
+          if(isset($_POST['check3'])){
+
+           $num3 =$_POST['num3'];
+           if ($num3 == "25") {
+            echo "Your answer is correct";
+           }
+           elseif ($num3 !="25") {
+            echo "Try Again";
+           }
+          }
+          ?>
+        </div>
+
+        <div class="questions">
+          <p>Andrew’s 4 friends decided to bring food as well.If each of them brought 4 slices of pizza, how many slices of pizza do they have in total?</p>
+            <form action="" method="post">
+              <input type="text" name="num4">
+              <input type="submit" name="check4" value="Check">  
+        </form>
+          <?php
+          if(isset($_POST['check4'])){
+
+           $num4 =$_POST['num4'];
+           if ($num4 == "16") {
+            echo "Your answer is correct";
+           }
+           elseif ($num4 !="16") {
+            echo "Try Again";
+           }
+          }
+          ?>
+        </div>
+
+        <div class="questions">
+          <p>Lastly, Andrew tried to compute his expenses for the game night. If he spent $9 for each game they played and they played a total of 5 games, write an equation for how much money he spend on games that night.</p>
+            <form action="" method="post">
+              <input type="text" name="num5">
+              <input type="submit" name="check5" value="Check">  
+        </form>
+          <?php
+          if(isset($_POST['check5'])){
+
+           $num5 =$_POST['num5'];
+           if ($num5 == "95") {
+            echo "Your answer is correct";
+           }
+           elseif ($num5 !="95") {
+            echo "Try Again";
+           }
+          }
+          ?>
+        </div>
+
+    </div>
+
+    <!-- CALCULATOR -->
+    <div class="col-sm-3" id="calculator">
+      <h2>Find the Product !</h2>
+      <div class="box">
+      <h1 id="answer"></h1>
+      Input a number<input type="text" id="num1">
+      <br> <br>
+      Input a number<input type="text" id="num2">
+      <br>
+      <br>
+
+      <button onclick="calculate()"> Calculate</button>
+      <script>
+          
+      function calculate() {
+        var field1=document.getElementById("num1").value;
+        var field2=document.getElementById("num2").value;
+        var result=parseFloat(field1)*parseFloat(field2);
+
+        if(!isNaN(result)){
+            document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
+        }
+        }
+      </script>
+    </div>
+              
+          
 </body>
-</html> -->
+</html>
