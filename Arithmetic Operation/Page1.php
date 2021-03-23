@@ -67,27 +67,48 @@
   </style>
 </head>
 <body>
-	<div class="header"><h1>KIDS MATH-TYNICS</h1></div>
-	<div class="concept">
-		<div class="row">
-			<div class="col-sm-5" id="left">
-			<h2>CATEGORY</h2>
-				<ul>
-  				<li><a href="Page1.php">HOME</a></li>
-  				<li><a href="add.php">ADDITION</a></li>
-  				<li><a href="">SUBTRACTION</a></li>
-  				<li><a href="">MULTIPLICATION</a></li>
-  				<li><a href="">DIVITION</a></li>
-				</ul>
-						
-			</div>
+<div class="container">
 
-			<div class="col-sm-7" id="right">
-				<p>The aim of this page is to help the children learn BASIC MATH. They will encounter some question that help them to boost their knowlegde in terms of ADDITION, SUBTRACTION, MULTIPLICATION, and DIVIDION</p>
-				
-			</div>
-		</div>
-		
-	</div>
+    <div>
+    	<h1>
+		MATH-TYNICS<hr style="margin: 0; border: 2px solid white;">
+    	</h1>
+    </div>
+	
+    <div>
+      <p>The aim of this page is to help the children learn BASIC MATH. They will encounter some questions that help them boost their knowlegde in terms of ADDITION, SUBTRACTION, MULTIPLICATION, and DIVISION.</p>
+    </div>
+
+    <div>
+      <h2>
+        CATEGORIES<hr style="margin: 0; border: 2px solid white;">
+      </h2>
+    </div>
+
+    <div class="row">
+	<br>
+    <div class="col-sm-6"> 
+      <center><a href="addition.php"><button class="button" style="width: 200px; height: 100px;"><i class="fas fa-plus"></i><br>Addition</button></a></center>
+    </div>   
+    <div class="col-sm-6"> 
+      <center><a href="subtraction.php"><button class="button" style="width: 200px; height: 100px;"><i class="fas fa-minus"></i><br>Subtraction</button></a></center>
+    </div>
+    </div>
+	
+    <br>
+
+    <div class="row">
+    <div class="col-sm-6" > 
+      <center><a href="multiplication.php"><button class="button" style="width: 200px; height: 100px;"><i class="fas fa-times"></i><br>Multiplication</button></a></center>
+    </div>   
+    <div class="col-sm-6"> 
+      <center><a href="div.php"><button class="button" style="width: 200px; height: 100px;"><i class="fas fa-divide"></i><br>Division</button></a></center>
+    </div>
+    </div>
+    
+  </div>
+	
+
+<br>
 </body>
 </html>
