@@ -40,10 +40,10 @@
     	<h2>CATEGORY</h2>
 			<ul>
   			<li><a href="Page1.php">HOME</a></li>
-  			<li><a href="">ADDITION</a></li>
+  			<li><a href="addition.php">ADDITION</a></li>
   			<li><a href="subtraction.php">SUBTRACTION</a></li>
   			<li><a href="multiplication.php">MULTIPLICATION</a></li>
-  			<li><a href="">DIVISION</a></li>
+  			<li><a href="div.php">DIVISION</a></li>
 			</ul>
     </div>
 
