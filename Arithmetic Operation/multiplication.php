@@ -111,6 +111,53 @@ input[type=submit],button{
   border:2px solid #3b3b3b;
 
 }
+
+/*flip*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+
   </style>
 </head>
 <body>
@@ -165,9 +212,22 @@ input[type=submit],button{
             <p style="text-align: center; font-size: 17px; font-style: italic;">Andrew is having his friends over for game night. So he decided to prepare snacks and games.</p>
           </div>
 
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>4 X 3</h2>
+                  <p>Answer: 12</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Andrew has 4 friends coming over and he made 3 sandwiches for each one of them, how many sandwiches did he make?</p>
               <form action="" method="post">
@@ -186,9 +246,22 @@ input[type=submit],button{
         <br> 
 
         <div class="row">
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>2 X 6</h2>
+                  <p>Answer: 12</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Andrew used 2 oranges per glass of juice and he made 6 glasses of juice, how many oranges did he use?</p>
               <form action="" method="post">
@@ -207,9 +280,22 @@ input[type=submit],button{
         <br>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>5 X 5</h2>
+                  <p>Answer: 25</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Then he started to prepare the games for his 4 friends. If each game takes 5 minutes to prepare and he prepared a total of 5 games, how many minutes did it take for Andrew to prepare all the games?</p>
               <form action="" method="post">
@@ -228,9 +314,22 @@ input[type=submit],button{
         <br>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>4 X 4</h2>
+                  <p>Answer: 16</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Andrew’s 4 friends decided to bring food as well. If each of them brought 4 slices of pizza and 3 bags of chips, how many slices of pizza do they have in total?</p>
               <form action="" method="post">
@@ -249,9 +348,22 @@ input[type=submit],button{
         <br>
           
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>9 X 5</h2>
+                  <p>Answer: 45</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Lastly, Andrew tried to compute his expenses for the game night. If he spent $9 for each game they played and they played a total of 5 games, write an equation for how much money he spend on games that night.</p>
               <form action="" method="post">
@@ -270,9 +382,22 @@ input[type=submit],button{
         <br>
 
          <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>2 X 6</h2>
+                  <p>Answer: 12</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Lastly, Andrew tried to compute his expenses for the game night. If he spent $9 for each game they played and they played a total of 5 games, write an equation for how much money he spend on games that night.</p>
               <form action="" method="post">
@@ -296,9 +421,22 @@ input[type=submit],button{
         </div>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>478 X 8</h2>
+                  <p>Answer: 3824</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">The library is divided into different sections for different type of book. The science fiction section has 8 books. If each book has 478 pages, how many pages do the 8 books have in total?</p>
               <form action="" method="post">
@@ -317,9 +455,22 @@ input[type=submit],button{
         <br>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+       <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>9 X 49</h2>
+                  <p>Answer: 441</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">He also has a 3 foot long section filled with short story booklets. If each booklet has 9 pages and there are 49 booklets, how many pages will Jack need to go through if he plans to read them all?</p>
               <form action="" method="post">
@@ -338,9 +489,22 @@ input[type=submit],button{
         <br>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>6 X 33</h2>
+                  <p>Answer: 198</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">The mini library also has a section for the classics. If this collection comes from 6 different authors, with each author having 33 books, how many books does he have in the classics section?</p>
               <form action="" method="post">
@@ -359,9 +523,22 @@ input[type=submit],button{
         <br>
 
         <div class="row" >
-        <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+        <!-- flip start -->
+           <div class="col-sm-5" style="opacity: .5px; padding: 0;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="mul10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>9 X 365</h2>
+                  <p>Answer: 3285</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Having this kind of collection made Jack a fast reader. If he can read 9 books in a day, how many books can he read in a year (365 days)?</p>
               <form action="" method="post">
