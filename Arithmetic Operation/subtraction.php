@@ -111,6 +111,54 @@ input[type=submit],button{
   border:2px solid #3b3b3b;
 
 }
+
+/*flip*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+    
+
   </style>
 </head>
 <body>
@@ -161,9 +209,23 @@ input[type=submit],button{
         <div class="row">
           <h3>NOW IT'S YOUR TURN</h3>
 
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>7 - 3</h2>
+                  <p>Answer: 4</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
+
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">7 candles were burning on a cake. Jake blew 3 of them out. How many were left burning?</p>
               <form action="" method="post">
@@ -190,9 +252,23 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 200 - 100</h2>
+                  <p>Answer: 100</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
+
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">A shopkeeper bought 200 eggs and sold 100 eggs. How many eggs were left unsold?</p>
               <form action="" method="post">
@@ -218,9 +294,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+            <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 365 - 127</h2>
+                  <p>Answer: 226</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">An animal care society tested 356 pet animals. 127 were infected by diseases. Find the number of healthy pet animals that participated in the medical tests?</p>
               <form action="" method="post">
@@ -238,9 +327,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 674 - 329</h2>
+                  <p>Answer: 282</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">In an annual celebration, 674 students participated. Of them, 392 were boys. Find the number of girls who participated.</p>
               <form action="" method="post">
@@ -259,9 +361,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+            <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 649 - 495 </h2>
+                  <p>Answer: 154</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">Mark has a book which contains 649 pages. He has already read 495 pages. How many pages are unread?</p>
               <form action="" method="post">
@@ -280,9 +395,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+          <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 248 - 109</h2>
+                  <p>Answer: 139</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">Director James directed a film which ran for 248 minutes. During the editing process, 109 minutes were removed. What is the final running time of the film, after editing?</p>
               <form action="" method="post">
@@ -301,9 +429,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+            <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 5718 - 2199</h2>
+                  <p>Answer: 3519</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">There are 5718 DVDs in Mr. Miller’s shop. 2199 are audio DVDs and the rest of them are video DVDs. Find the number of video DVDs in Mr. Miller’s shop.</p>
               <form action="" method="post">
@@ -322,9 +463,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> $6789 - $8790</h2>
+                  <p>Answer: $2001</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">Clara withdrew $ 6789 from her account. The initial amount in her account was $ 8790. Find the balance left after the withdrawal.</p>
               <form action="" method="post">
@@ -342,9 +496,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 4012 - 1278</h2>
+                  <p>Answer: 2734</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">A free medical camp was conducted in Mexico. 1278 males participated in the camp. The entry book shows 4012 people participated in the camp. Find the number of females who participated.</p>
               <form action="" method="post">
@@ -363,9 +530,22 @@ input[type=submit],button{
         <br>
 
         <div class="row">
+          <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="sub10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="sub10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2> 2000 - 1254</h2>
+                  <p>Answer: 746</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center;">Cathy needs at least 2000 points to go to level 2 in a video game. She has only 1254 points in level 1. How many more points does she need to qualify for level 2?</p>
               <form action="" method="post">
@@ -417,3 +597,4 @@ input[type=submit],button{
           
 </body>
 </html>
+
