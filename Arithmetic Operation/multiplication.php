@@ -187,7 +187,7 @@ input[type=submit],button{
 
         <div class="row">
         <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="mul2.1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="mul2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Andrew used 2 oranges per glass of juice and he made 6 glasses of juice, how many oranges did he use?</p>
