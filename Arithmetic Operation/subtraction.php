@@ -139,7 +139,7 @@ input[type=submit],button{
               <li><a href="Page1.php" class="nav-link">HOME</a></li>
               <li><a href="addition.php" class="nav-link">ADDITION</a></li>
               <li><a href="subtraction.php" class="nav-link active">SUBTRACTION</a></li>
-              <li><a href="mul.php" class="nav-link">MULTIPLICATION</a></li>
+              <li><a href="multiplication.php" class="nav-link">MULTIPLICATION</a></li>
               <li><a href="div.php" class="nav-link">DIVISION</a></li>
           </ul> 
         </div>
@@ -155,7 +155,7 @@ input[type=submit],button{
 
               <p style="text-indent:  55px; font-size: 17px;">Mark has a book which contains 200 pages. He has already read 99 pages. How many pages are &nbsp;&nbsp;&nbsp;unread?</p>
 
-              <h5 style="text-indent:  55px; font-size: 17px;"><em>SOLUTION:</em> &nbsp;&nbsp;&nbsp;&nbsp;<b>200</b> - <b>99</b>  = <em><b>101 unread pages</b></em></h5>
+              <h5 style="text-indent:  55px; font-size: 17px;"><em>SOLUTION:</em> &nbsp;&nbsp;&nbsp;&nbsp;<b>200</b> + <b>99</b>  = <em><b>101 unread pages</b></em></h5>
         </div>
 
         <div class="row">
@@ -384,12 +384,12 @@ input[type=submit],button{
         <br>
       
     </div>
-    <div class="col-sm-3" id="calculator">
+    <div class="col-sm-3" id="calculator" style="text-align: center;">
       <div class="row">
             <h2><center>Find the Difference!</center></h2>
 
             <div class="box" style="font-family: Georgia;">
-              <h1 id="answer" style="text-shadow: none; font-size: 24px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
+              <h1 id="answer" style="text-shadow: none; font-size: 20px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num1" style="width: 40%;">
               <br> <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num2" style="width: 40%;">
@@ -409,6 +409,10 @@ input[type=submit],button{
         }
       </script>
     </div>
+     <br><br>
+  </div>
+</div>
+
               
           
 </body>
