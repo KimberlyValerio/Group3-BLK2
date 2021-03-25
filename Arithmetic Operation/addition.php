@@ -4,111 +4,111 @@
 	<title></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  	<style type="text/css">
-    	body{
-    	  margin:0;
-    	  padding:0;
-    	  background-image: url('bg2.png');
-    	  background-repeat: no-repeat;
-    	  background-size: cover; 
-    	  background-attachment: fixed; 
-    	}
-    	h1{
-    	  text-align: center;
-    	  font-family: Georgia;
-    	  font-weight: bold;
-    	  text-shadow: 4px 1px #E8D9BD;
-    	  font-size: 38px;
-    	}
-    	h3{
-    	  text-indent: 35px;
-    	  font-weight: bold;
-    	}
-    	h2{
-    	  font-weight: bold;
-    	  font-family: Georgia;
-    	}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style type="text/css">
+    body{
+      margin:0;
+      padding:0;
+      background-image: url('bg2.png');
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-attachment: fixed; 
+    }
+    h1{
+      text-align: center;
+      font-family: Georgia;
+      font-weight: bold;
+      text-shadow: 4px 1px #E8D9BD;
+      font-size: 38px;
+    }
+    h3{
+      text-indent: 35px;
+      font-weight: bold;
+    }
+    h2{
+      font-weight: bold;
+      font-family: Georgia;
+    }
 
-    	.sidebar {
-    	  margin:0;
-    	  padding:0;
-    	  width: 225px;
-    	  height: 150%;
-    	  overflow: hidden;
-    	  float: left;
-    	  font-family: Georgia;
-    	  letter-spacing: 3px;
-    	  font-size: 17px;
+    .sidebar {
+      margin:0;
+      padding:0;
+      width: 225px;
+      height: 150%;
+      overflow: hidden;
+      float: left;
+      font-family: Georgia;
+      letter-spacing: 3px;
+      font-size: 17px;
       
-    	}
+    }
 
-    	.sidebar a {
-    	  display: block;
-    	  color: black;
-    	  padding: 18px;
-    	  text-decoration: none;
-    	}
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 18px;
+      text-decoration: none;
+    }
  
-    	.sidebar a.active {
-    	  background-color: #9EC6C6;
-    	  color: white;
-    	}
+    .sidebar a.active {
+      background-color: #9EC6C6;
+      color: white;
+    }
 
-    	.sidebar a:hover:not(.active) {
-    	  background-color: #5C9598;
-    	  color: white;
-    	}
+    .sidebar a:hover:not(.active) {
+      background-color: #5C9598;
+      color: white;
+    }
 
-	div.content {
-	  margin-left: 200px;
-	  padding: 1px 16px;
-	  height: 1000px;
-	}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
 
-	@media screen and (max-width: 700px) {
-	  .sidebar {
-	    width: 100%;
-	    height: auto;
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
     
-	  }
-  	.sidebar a {float: left;}
- 	 div.content {margin-left: 0;}
-	}
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
 
-	@media screen and (max-width: 400px) {
-	  .sidebar a {
-	    text-align: center;
-	    float: none;
-	  }
-	}
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
 
-	input[type=text]{
-	    width: 50%;
-	    padding: 10px;
-	    margin: 1px 0px 0px 50px;
-	    display: inline-block;
-	    color: white;
-	    background: #5C9598;
-	    border:2px solid #3b3b3b;
-	    border-radius: 5px;    
-	}
-	input[type=submit]{
-	  width: 20%;
-	  padding: 10px;
-	  margin: 1px 0px 0px 5px;
-	  display: inline-block;
-	  background-color: #f1f1f1;
-	  border:2px solid #3b3b3b;
-	  font-weight: bold;
-	}
-	.submitbtn:hover{
-	  background-color: #5C9598;
-	  color: white;
-	  font-weight: bold;
-	  border:2px solid #3b3b3b;
+input[type=text]{
+    width: 50%;
+    padding: 10px;
+    margin: 1px 0px 0px 50px;
+    display: inline-block;
+    color: white;
+    background: #5C9598;
+    border:2px solid #3b3b3b;
+    border-radius: 5px;    
+}
+input[type=submit]{
+  width: 20%;
+  padding: 10px;
+  margin: 1px 0px 0px 5px;
+  display: inline-block;
+  background-color: #f1f1f1;
+  border:2px solid #3b3b3b;
+  font-weight: bold;
+}
+.submitbtn:hover{
+  background-color: #5C9598;
+  color: white;
+  font-weight: bold;
+  border:2px solid #3b3b3b;
 
-	}
+}
     
   	
 	</style>
@@ -137,7 +137,7 @@
               <li><a href="Page1.php" class="nav-link">HOME</a></li>
               <li><a href="addition.php" class="nav-link active">ADDITION</a></li>
               <li><a href="subtraction.php" class="nav-link">SUBTRACTION</a></li>
-              <li><a href="mul.php" class="nav-link">MULTIPLICATION</a></li>
+              <li><a href="multiplication.php" class="nav-link">MULTIPLICATION</a></li>
               <li><a href="div.php" class="nav-link">DIVISION</a></li>
           </ul> 
         </div>
@@ -303,20 +303,20 @@
           
         </div>
         
-        <div class="col-sm-3" style="background-color: ;">
+        <div class="col-sm-3" style="text-align: center;">
 
           <div class="row">
             <h2><center>Find the Sum!</center></h2>
 
             <div class="box" style="font-family: Georgia;">
-              <h1 id="answer" style="text-shadow: none; font-size: 24px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
+              <h1 id="answer" style="text-shadow: none; font-size: 20px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num1" style="width: 40%;">
               <br> <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num2" style="width: 40%;">
               <br>
               <br>
 
-              <center><button style="width:35%; padding: 10px; margin: 1px 0px 0px 5px; display: inline-block; background-color: #f1f1f1; border:2px solid #3b3b3b; font-weight: bold;" onclick="calculate()"> Calculate</button></center>
+              <center><button style="width:35%; padding: 10px; margin: 1px 0px 0px 5px; display: inline-block; background-color: #f1f1f1; border:2px solid #3b3b3b; font-weight: bold;" onclick="calculate()">Calculate</button></center>
 
               <script>
           
@@ -341,5 +341,8 @@
     </div>
     
   </div>
+
+ 
+   
 </body>
 </html>
