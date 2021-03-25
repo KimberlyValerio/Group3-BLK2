@@ -155,7 +155,7 @@ input[type=submit],button{
 
               <p style="text-indent:  55px; font-size: 17px;">Mark has a book which contains 200 pages. He has already read 99 pages. How many pages are &nbsp;&nbsp;&nbsp;unread?</p>
 
-              <h5 style="text-indent:  55px; font-size: 17px;"><em>SOLUTION:</em> &nbsp;&nbsp;&nbsp;&nbsp;<b>200</b> + <b>99</b>  = <em><b>101 unread pages</b></em></h5>
+              <h5 style="text-indent:  55px; font-size: 17px;"><em>SOLUTION:</em> &nbsp;&nbsp;&nbsp;&nbsp;<b>200</b> - <b>99</b>  = <em><b>101 unread pages</b></em></h5>
         </div>
 
         <div class="row">
