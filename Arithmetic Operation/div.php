@@ -322,10 +322,10 @@
                   var field1=document.getElementById("num1").value;
                   var field2=document.getElementById("num2").value;
 
-                  var result=parseFloat(field1)+parseFloat(field2);
+                  var result=parseFloat(field1)*parseFloat(field2);
 
                   if(!isNaN(result)){
-                      document.getElementById("answer").innerHTML="The sum of " + field1 + " and " + field2 + " is " + result;
+                      document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
                   }
                   }
               </script>
