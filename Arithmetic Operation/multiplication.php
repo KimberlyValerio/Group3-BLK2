@@ -46,7 +46,6 @@
         <li><a href="div.php">DIVISION</a></li>
       </ul>
     </div>
-
     <div class="col-sm-6">
       <h3>Let's learn MULTIPLICATION</h3>
       <p> Multiplication is one of the four elementary mathematical operations of arithmetic, with the other ones being addition, subtraction and division. The result of a multiplication operation is called a product.
@@ -61,7 +60,6 @@
             <form action="" method="post">
               <input type="text" name="num">
               <button onclick="num1()">Check</button>
-
               <script>
               function num1() {
               alert("The answer is: 12 sandwiches");
