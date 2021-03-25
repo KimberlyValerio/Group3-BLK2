@@ -107,6 +107,53 @@
     font-weight: bold;
     border:2px solid #3b3b3b;
   }
+
+/*flip*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+    
     
   </style>
 </head>
@@ -134,7 +181,7 @@
               <li><a href="Page1.php" class="nav-link">HOME</a></li>
               <li><a href="addition.php" class="nav-link">ADDITION</a></li>
               <li><a href="subtraction.php" class="nav-link">SUBTRACTION</a></li>
-              <li><a href="mul.php" class="nav-link">MULTIPLICATION</a></li>
+               <li><a href="multiplication.php" class="nav-link">MULTIPLICATION</a></li>
               <li><a href="div.php" class="nav-link  active">DIVISION</a></li>
           </ul> 
         </div>
@@ -155,9 +202,23 @@
         <div class="row">
           <h3>NOW IT'S YOUR TURN</h3>
 
+            <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="div1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="div1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>63 / 9</h2>
+                  <p>Answer: 7</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
+
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Tom had 63 apples. He divides all apples evenly among 9 friends. How many apples did Tom give to each of his friends? </p>
               <form action="" method="post">
@@ -184,9 +245,22 @@
           <br>
        <div class="row">
           
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="div2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="div2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>108 / 12</h2>
+                  <p>Answer: 9</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">A bus can hold 108 passengers. If there are 12 rows of seats on the bus, how many seats are in each row? </p>
               <form action="" method="post">
@@ -215,9 +289,22 @@
         <br>
        <div class="row">
           
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="div3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="div3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>9975 / 95</h2>
+                  <p>Answer: 105</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; "> If 9975 kg of wheat is packed in 95 bags, how much wheat will each bag contain?</p>
               <form action="" method="post">
@@ -244,9 +331,22 @@
         <br>
        <div class="row">
           
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="div4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="div4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>800 / 20</h2>
+                  <p>Answer: 40</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">800 are distributed equally among 20 men. How much money will each person get?</p>
             <form action="" method="post">
@@ -273,9 +373,22 @@
          <br>
        <div class="row">
           
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="div5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="div5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>195 / 13</h2>
+                  <p>Answer: 15</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Mark baked 195 cookies and divided them equally into 13 packs. How many cookies did Mark put in each packet?</p>
             <form action="" method="post">
@@ -301,46 +414,32 @@
           
         </div>
         
-        <div class="col-sm-3" style="text-align: center;">
-
-          <div class="row">
-            <h2><center>Find the Sum!</center></h2>
+        <div class="col-sm-3" id="calculator" style="text-align: center;">
+      <div class="row">
+            <h2><center>Find the Product!</center></h2>
 
             <div class="box" style="font-family: Georgia;">
-              <h1 id="answer" style="text-shadow: none; font-size: 24px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
+              <h1 id="answer" style="text-shadow: none; font-size: 20px; margin-top: 18px; margin-bottom: 8px;"></h1><br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num1" style="width: 40%;">
               <br> <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<b style="font-size: 16px;">Input a number</b><input type="text" id="num2" style="width: 40%;">
               <br>
               <br>
 
-              <center><button style="width:35%; padding: 10px; margin: 1px 0px 0px 5px; display: inline-block; background-color: #f1f1f1; border:2px solid #3b3b3b; font-weight: bold;" onclick="calculate()"> Calculate</button></center>
-
-              <script>
+              <center><button style="width:35%; padding: 10px; margin: 1px 0px 0px 5px; display: inline-block; background-color: #f1f1f1; border:2px solid #3b3b3b; font-weight: bold;" onclick="calculate()">Calculate</button></center>
+      <script>
           
-                function calculate() {
-                  var field1=document.getElementById("num1").value;
-                  var field2=document.getElementById("num2").value;
-
-                  var result=parseFloat(field1)/parseFloat(field2);
-
-                  if(!isNaN(result)){
-                      document.getElementById("answer").innerHTML="The quotient of " + field1 + " and " + field2 + " is " + result;
-                  }
-                  }
-              </script>
-            </div>
-            
-          </div>
-          <br><br>
-        </div>
-      </div>
-      
+      function calculate() {
+        var field1=document.getElementById("num1").value;
+        var field2=document.getElementById("num2").value;
+        var result=parseFloat(field1)*parseFloat(field2);
+        if(!isNaN(result)){
+            document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
+        }
+        }
+      </script>
     </div>
-    
-  </div>
 
- 
    
 </body>
 </html>
