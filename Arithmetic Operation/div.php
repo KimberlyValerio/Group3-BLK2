@@ -156,7 +156,7 @@
           <h3>NOW IT'S YOUR TURN</h3>
 
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="div1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Tom had 63 apples. He divides all apples evenly among 9 friends. How many apples did Tom give to each of his friends? </p>
@@ -170,10 +170,10 @@
 
            $num1 =$_POST['num1'];
            if ($num1 == "7") {
-            echo "Your answer is correct";
+            echo "<b><center><font size='3pt'>Your answer is correct.</font></center></b>";
            }
            elseif ($num1 !="7") {
-            echo "Try Again";
+            echo "<b><center><font size='3pt'>Try Again!</font></center></b>";
            }
           }
           ?>
@@ -185,10 +185,10 @@
        <div class="row">
           
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="div2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
-             <p style="font-size: 23px; text-align:center; ">A bus can hold 108 passengers. If there are 12 rows of seats on the bus, how many seats are in each row? </p>
+             <p style="font-size: 23px; text-align:center; ">A bus can hold 108 passengers. If there are 12 rows of seats on the bus, how many seats are in each row? </p>
               <form action="" method="post">
                   <input type="text" name="num2">
                   <input type="submit" name="check2" class="submitbtn" value="Check">  
@@ -199,10 +199,10 @@
 
            $num2 =$_POST['num2'];
            if ($num2 == "9") {
-            echo "Your answer is correct";
+            echo "<b><center><font size='3pt'>Your answer is correct.</font></center></b>";
            }
            elseif ($num2 !="9") {
-            echo "Try Again";
+            echo "<b><center><font size='3pt'>Try Again!</font></center></b>";
            }
           }
           ?>
@@ -216,7 +216,7 @@
        <div class="row">
           
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="div3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; "> If 9975 kg of wheat is packed in 95 bags, how much wheat will each bag contain?</p>
@@ -229,10 +229,10 @@
 
            $num3 =$_POST['num3'];
            if ($num3 == "105") {
-            echo "Your answer is correct";
+            echo "<b><center><font size='3pt'>Your answer is correct.</font></center></b>";
            }
            elseif ($num3 !="105") {
-            echo "Try Again";
+            echo "<b><center><font size='3pt'>Try Again!</font></center></b>";
            }
           }
           ?>
@@ -245,7 +245,7 @@
        <div class="row">
           
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="div4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">800 are distributed equally among 20 men. How much money will each person get?</p>
@@ -258,10 +258,10 @@
 
            $num4 =$_POST['num4'];
            if ($num4 == "40") {
-            echo "Your answer is correct";
+            echo "<b><center><font size='3pt'>Your answer is correct.</font></center></b>";
            }
            elseif ($num4 !="40") {
-            echo "Try Again";
+            echo "<b><center><font size='3pt'>Try Again!</font></center></b>";
            }
           }
           ?>
@@ -274,7 +274,7 @@
        <div class="row">
           
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <center><img src="div5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
           </div>
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Mark baked 195 cookies and divided them equally into 13 packs. How many cookies did Mark put in each packet?</p>
@@ -287,10 +287,10 @@
 
            $num5 =$_POST['num5'];
            if ($num5 == "15") {
-            echo "Your answer is correct";
+            echo "<b><center><font size='3pt'>Your answer is correct.</font></center></b>";
            }
            elseif ($num5 !="15") {
-            echo "Try Again";
+            echo "<b><center><font size='3pt'>Try Again!</font></center></b>";
            }
           }
           ?>
@@ -301,7 +301,7 @@
           
         </div>
         
-        <div class="col-sm-3" style="background-color: ;">
+        <div class="col-sm-3" style="text-align: center;">
 
           <div class="row">
             <h2><center>Find the Sum!</center></h2>
@@ -322,10 +322,10 @@
                   var field1=document.getElementById("num1").value;
                   var field2=document.getElementById("num2").value;
 
-                  var result=parseFloat(field1)*parseFloat(field2);
+                  var result=parseFloat(field1)/parseFloat(field2);
 
                   if(!isNaN(result)){
-                      document.getElementById("answer").innerHTML="The product of " + field1 + " and " + field2 + " is " + result;
+                      document.getElementById("answer").innerHTML="The quotient of " + field1 + " and " + field2 + " is " + result;
                   }
                   }
               </script>
