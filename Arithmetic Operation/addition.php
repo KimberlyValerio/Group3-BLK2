@@ -109,6 +109,53 @@ input[type=submit]{
   border:2px solid #3b3b3b;
 
 }
+
+/*flip*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+    
     
   	
 	</style>
@@ -157,11 +204,26 @@ input[type=submit]{
 
         <div class="row">
           <h3>NOW IT'S YOUR TURN</h3>
-
+          <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="add1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>6 + 8</h2>
+                  <p>Answer: 14</p>
+                </div>
+
+                
+              </div>
+              
+            </div>
           </div>
-          <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
+
+          <!-- flip end -->
+              <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">There are 6 surfboards and the surfer bought another 8 pieces. How many surfboards are there in all?</p>
               <form action="" method="post">
                 <input type="text" name="num1">
@@ -187,9 +249,25 @@ input[type=submit]{
           <br>
        <div class="row">
           
+          <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="add2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>4 + 5</h2>
+                  <p>Answer: 9</p>
+                </div>
+
+                
+              </div>
+              
+            </div>
           </div>
+          <!-- flip end -->
+
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">There were 4 jackets left on the playground on Monday and 5 jackets left on the playground on Tuesday. How many jackets were left on the playground?</p>
               <form action="" method="post">
@@ -217,9 +295,24 @@ input[type=submit]{
         <br>
        <div class="row">
           
+          <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="add3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>$325 + $289</h2>
+                  <p>Answer: $614</p>
+                </div>
+
+                
+              </div>
+              
+            </div>
           </div>
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Dora got $325 from her father and $289 from her mother. How much money does she have now?</p>
               <form action="" method="post">
@@ -246,9 +339,24 @@ input[type=submit]{
         <br>
        <div class="row">
           
+           <!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="add4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>453 + 673</h2>
+                  <p>Answer: 1126</p>
+                </div>
+
+                
+              </div>
+              
+            </div>
           </div>
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">Gary played a car game and scored 453 points in first round and 673 points in second round. The game was over after the second round. How many points did he have at the end of the game?</p>
             <form action="" method="post">
@@ -275,9 +383,24 @@ input[type=submit]{
          <br>
        <div class="row">
           
+<!-- flip start -->
            <div class="col-sm-5" style="opacity: .5px; padding: 0;">
-            <center><img src="add5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <center><img src="add5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
+                </div>
+                <div class="flip-box-back">
+                  <h2>230 + 140</h2>
+                  <p>Answer: 370</p>
+                </div>
+
+                
+              </div>
+              
+            </div>
           </div>
+          <!-- flip end -->
           <div class="col-sm-7" style="opacity: .5px;  padding: 15px;">
              <p style="font-size: 23px; text-align:center; ">There are 230 lions and 140 tigers in a forest. These are the only wild animals in the forest. Find the total number of wild animals in the forest.</p>
             <form action="" method="post">
@@ -346,3 +469,4 @@ input[type=submit]{
    
 </body>
 </html>
+
