@@ -153,7 +153,7 @@ input[type=submit],button{
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #EABA8A;
   color: white;
   transform: rotateY(180deg);
 } 
@@ -220,8 +220,8 @@ input[type=submit],button{
                   <center><img src="mul1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>4 X 3</h2>
-                  <p>Answer: 12</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">4 x 3</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 12</p>
                 </div>
               </div>
             </div>
@@ -254,8 +254,8 @@ input[type=submit],button{
                   <center><img src="mul2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>2 X 6</h2>
-                  <p>Answer: 12</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">2 x 6</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 12</p>
                 </div>
               </div>
             </div>
@@ -288,8 +288,8 @@ input[type=submit],button{
                   <center><img src="mul3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>5 X 5</h2>
-                  <p>Answer: 25</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">5 x 5</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 25</p>
                 </div>
               </div>
             </div>
@@ -322,8 +322,8 @@ input[type=submit],button{
                   <center><img src="mul4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>4 X 4</h2>
-                  <p>Answer: 16</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">4 x 4</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 16</p>
                 </div>
               </div>
             </div>
@@ -356,8 +356,8 @@ input[type=submit],button{
                   <center><img src="mul5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>9 X 5</h2>
-                  <p>Answer: 45</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">9 x 5</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 45</p>
                 </div>
               </div>
             </div>
@@ -390,8 +390,8 @@ input[type=submit],button{
                   <center><img src="mul6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>2 X 6</h2>
-                  <p>Answer: 12</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">2 x 6</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 12</p>
                 </div>
               </div>
             </div>
@@ -429,8 +429,8 @@ input[type=submit],button{
                   <center><img src="mul7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>478 X 8</h2>
-                  <p>Answer: 3824</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">478 x 8</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 3824</p>
                 </div>
               </div>
             </div>
@@ -463,8 +463,8 @@ input[type=submit],button{
                   <center><img src="mul8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>9 X 49</h2>
-                  <p>Answer: 441</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">9 x 49</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 441</p>
                 </div>
               </div>
             </div>
@@ -497,8 +497,8 @@ input[type=submit],button{
                   <center><img src="mul9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>6 X 33</h2>
-                  <p>Answer: 198</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">6 x 33</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 198</p>
                 </div>
               </div>
             </div>
@@ -531,8 +531,8 @@ input[type=submit],button{
                   <center><img src="mul10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>9 X 365</h2>
-                  <p>Answer: 3285</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">9 x 365</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 3285</p>
                 </div>
               </div>
             </div>
