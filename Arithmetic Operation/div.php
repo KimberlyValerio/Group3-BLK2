@@ -149,7 +149,7 @@
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #EABA8A;
   color: white;
   transform: rotateY(180deg);
 } 
@@ -210,8 +210,8 @@
                   <center><img src="div1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>63 / 9</h2>
-                  <p>Answer: 7</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">63 / 9</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 7</p>
                 </div>
               </div>
             </div>
@@ -242,7 +242,7 @@
           </div>
           
         </div>
-          <br>
+          <br> <br>
        <div class="row">
           
            <!-- flip start -->
@@ -253,8 +253,8 @@
                   <center><img src="div2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>108 / 12</h2>
-                  <p>Answer: 9</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">108 / 12</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 9</p>
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@
           
         </div>
 
-        <br>
+        <br> <br>
        <div class="row">
           
            <!-- flip start -->
@@ -297,8 +297,8 @@
                   <center><img src="div3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>9975 / 95</h2>
-                  <p>Answer: 105</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">9975 / 95</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 105</p>
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@
           
         </div>
 
-        <br>
+        <br> <br>
        <div class="row">
           
            <!-- flip start -->
@@ -339,8 +339,8 @@
                   <center><img src="div4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>800 / 20</h2>
-                  <p>Answer: 40</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">800 / 20</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 40</p>
                 </div>
               </div>
             </div>
@@ -370,7 +370,7 @@
           
         </div>
 
-         <br>
+         <br> <br>
        <div class="row">
           
            <!-- flip start -->
@@ -381,8 +381,8 @@
                   <center><img src="div5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>195 / 13</h2>
-                  <p>Answer: 15</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">195 / 13</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 15</p>
                 </div>
               </div>
             </div>
@@ -410,7 +410,7 @@
            
           </div>
           
-        </div>
+        </div> <br> <br>
           
         </div>
         
