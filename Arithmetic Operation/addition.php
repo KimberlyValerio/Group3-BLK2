@@ -151,7 +151,7 @@ input[type=submit]{
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #EABA8A;
   color: white;
   transform: rotateY(180deg);
 } 
@@ -212,8 +212,8 @@ input[type=submit]{
                   <center><img src="add1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>6 + 8</h2>
-                  <p>Answer: 14</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">6 + 8</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 14</p>
                 </div>
 
                 
@@ -257,8 +257,8 @@ input[type=submit]{
                   <center><img src="add2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>4 + 5</h2>
-                  <p>Answer: 9</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">4 + 5</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 9</p>
                 </div>
 
                 
@@ -292,7 +292,6 @@ input[type=submit]{
           
         </div>
 
-        <br>
        <div class="row">
           
           <!-- flip start -->
@@ -303,8 +302,8 @@ input[type=submit]{
                   <center><img src="add3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>$325 + $289</h2>
-                  <p>Answer: $614</p>
+                  <h2 style="margin-top: 25px; text-align: center; font-weight: bold; font-size: 50px;">$325 + $289</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: $614</p>
                 </div>
 
                 
@@ -347,8 +346,8 @@ input[type=submit]{
                   <center><img src="add4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>453 + 673</h2>
-                  <p>Answer: 1126</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">453 + 673</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 1126</p>
                 </div>
 
                 
@@ -380,7 +379,7 @@ input[type=submit]{
           
         </div>
 
-         <br>
+         
        <div class="row">
           
 <!-- flip start -->
@@ -391,8 +390,8 @@ input[type=submit]{
                   <center><img src="add5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>230 + 140</h2>
-                  <p>Answer: 370</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">230 + 140</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 370</p>
                 </div>
 
                 
@@ -422,7 +421,7 @@ input[type=submit]{
            
           </div>
           
-        </div>
+        </div> <br> <br>
           
         </div>
         
@@ -457,7 +456,7 @@ input[type=submit]{
             </div>
             
           </div>
-          <br><br>
+          <br><br><br>
         </div>
       </div>
       
@@ -469,4 +468,3 @@ input[type=submit]{
    
 </body>
 </html>
-
