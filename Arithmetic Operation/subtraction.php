@@ -153,7 +153,7 @@ input[type=submit],button{
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #EABA8A;
   color: white;
   transform: rotateY(180deg);
 } 
@@ -217,8 +217,8 @@ input[type=submit],button{
                   <center><img src="sub1.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2>7 - 3</h2>
-                  <p>Answer: 4</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">7 - 3</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 4</p>
                 </div>
               </div>
             </div>
@@ -260,8 +260,8 @@ input[type=submit],button{
                   <center><img src="sub2.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 200 - 100</h2>
-                  <p>Answer: 100</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 200 - 100</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 100</p>
                 </div>
               </div>
             </div>
@@ -302,8 +302,8 @@ input[type=submit],button{
                   <center><img src="sub3.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 365 - 127</h2>
-                  <p>Answer: 226</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 365 - 127</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 226</p>
                 </div>
               </div>
             </div>
@@ -335,8 +335,8 @@ input[type=submit],button{
                   <center><img src="sub4.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 674 - 329</h2>
-                  <p>Answer: 282</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 674 - 329</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 282</p>
                 </div>
               </div>
             </div>
@@ -369,8 +369,8 @@ input[type=submit],button{
                   <center><img src="sub5.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 649 - 495 </h2>
-                  <p>Answer: 154</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 649 - 495 </h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 154</p>
                 </div>
               </div>
             </div>
@@ -403,8 +403,8 @@ input[type=submit],button{
                   <center><img src="sub6.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 248 - 109</h2>
-                  <p>Answer: 139</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 248 - 109</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 139</p>
                 </div>
               </div>
             </div>
@@ -437,8 +437,8 @@ input[type=submit],button{
                   <center><img src="sub7.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 5718 - 2199</h2>
-                  <p>Answer: 3519</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;"> 5718 - 2199</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 3519</p>
                 </div>
               </div>
             </div>
@@ -471,8 +471,8 @@ input[type=submit],button{
                   <center><img src="sub8.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> $6789 - $8790</h2>
-                  <p>Answer: $2001</p>
+                  <h2 style="margin-top: 25px; text-align: center; font-weight: bold; font-size: 50px;">$6789 - $8790</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: $2001</p>
                 </div>
               </div>
             </div>
@@ -504,8 +504,8 @@ input[type=submit],button{
                   <center><img src="sub9.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 4012 - 1278</h2>
-                  <p>Answer: 2734</p>
+                  <h2 style="margin-top: 55px; text-align: center; font-weight: bold; font-size: 50px;">4012 - 1278</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 2734</p>
                 </div>
               </div>
             </div>
@@ -538,8 +538,8 @@ input[type=submit],button{
                   <center><img src="sub10.gif" style="width: 332px; height: 230px; padding: 10px;"></center>
                 </div>
                 <div class="flip-box-back">
-                  <h2> 2000 - 1254</h2>
-                  <p>Answer: 746</p>
+                  <h2 style="margin-top: 25px; text-align: center; font-weight: bold; font-size: 50px;">2000 - 1254</h2>
+                  <p style="text-align: center; font-weight: bold; font-size: 10px;">Answer: 746</p>
                 </div>
               </div>
             </div>
@@ -597,4 +597,3 @@ input[type=submit],button{
           
 </body>
 </html>
-
